@@ -14,3 +14,24 @@
     gap: 8px;
     padding: 8px;
 }
+.banner-container{
+    display: flex;
+    justify-content: center;
+    background-color:#1F2937;
+    padding: 5%;
+    gap: 10px;
+}
+button{
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+.banner-image{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+}
+.banner-image img{
+    max-width: 100%;
+    height: auto;
+
+}
