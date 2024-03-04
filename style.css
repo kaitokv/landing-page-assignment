@@ -24,6 +24,10 @@
 button{
     background-color: #3882F6;
     border-radius: 8px;
+    border: 2px solid #3882F6;
+    color: white;
+    height: 38px;
+    width: 90px;
 }
 .banner-image{
     display: flex;
@@ -74,4 +78,44 @@ button{
     align-self: flex-end;
     font-style: normal;
     font-weight: bold;
+}
+.footer-signup{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 30px;
+    margin-right: 220px;
+    margin-left: 220px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 8px;
+    color: white;
+}
+.text-signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 0;
+}
+.call-to-action{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: medium;
+    font-weight: bold;
+}
+.signup-statement{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+.footer-signup > button{
+    justify-content: flex-end;  
+    align-self: center;
+    font-size: 12px; 
+    border: 2px solid white;
+    color: white;
+    height: 38px;
+    width: 90px;
 }
